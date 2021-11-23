@@ -1,0 +1,56 @@
+/* block es horizontal */
+
+/* Pie de página */
+
+.contenido-pie
+{
+    color: var(--blanco);
+    text-align: center;
+}
+
+.pie .contacto
+{
+    justify-content: center;
+    padding: 0;
+
+}
+
+.logo-pie
+{
+    display: none;
+}
+
+@media screen and (min-width: 768px)
+{
+    .contenido-pie
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-pie
+    {
+        display: block;
+    }
+
+    .pie .contacto
+    {
+        order: 3;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .pie
+    {
+        margin-block-start: 40px;
+        margin-block-end: 40px;
+    }
+
+    .copyright
+    {
+        display: flex;
+        gap: .5rem;
+    }
+}

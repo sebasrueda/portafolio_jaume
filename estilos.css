@@ -1,0 +1,53 @@
+@import "botones.css";
+@import "cabecera.css";
+@import "iconos.css";
+@import "heroe.css";
+@import "contenedor.css";
+@import "menu.css";
+@import "mensaje.css";
+@import "testimonios.css";
+@import "proyectos.css";
+@import "contacto.css";
+@import "pie.css";
+@import "formulario.css";
+@import "titulo.css";
+
+/* Definiendo variables de estilzación para textos, botones y gradiente (color de fondo) */
+:root
+{
+    --fuenteBase: 'Poppins', sans-serif;
+    --fuenteTestimonio: 'Oxygen', sans-serif;
+
+    /* name: font-weight  font-size/line-height  font-family*/
+    --headline1: bold 95px/153.71px var(--fuenteBase);
+    --headline2: bold 59px/95px var(--fuenteBase);
+    --headline3: bold 48px/77px var(--fuenteBase);
+    --headline4: bold 34px/55px var(--fuenteBase);
+    --headline5: bold 24px/38px var(--fuenteBase);
+    --cuerpo1: normal 16px/25px var(--fuenteBase);
+    --cuerpo2: normal 14px/22px var(--fuenteBase);
+    --mensaje: normal 24px/39px var(--fuenteBase);
+    --mensajeGrande: normal 30px/55px var(--fuenteBase);
+    --testimonio: bold 16px/25.9px var(--fuenteTestimonio);
+    --testimonioGrande: bold 33px/55px var(--fuenteTestimonio);
+    --nombre: normal 12px/19px var(--fuenteBase);
+    --nombreGrande: bold 24px/39px var(--fuenteBase);
+    --boton: bold 14px/22px var(--fuenteBase);
+    --caption: normal 12px/19px var(--fuenteBase);
+
+    --gradiente: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --purpura: #310A90;
+    --verde: #42E2B8;
+    --blanco: #FFF;
+}
+
+/* Estilos del cuerpo */
+body
+{
+    background: var(--gradiente);
+    min-block-size: 100vh;
+    font: var(--cuerpo1);
+    color: var(--purpura);
+    margin: 0;
+}
+

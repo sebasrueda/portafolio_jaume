@@ -1,0 +1,43 @@
+.mensaje
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px 40px 16px;
+}
+
+.mensaje .personal
+{
+    margin: 0;
+    text-align: center;
+    font: var(--mensaje);
+    position: static;
+}
+
+.mensaje .algunos-proyectos
+{
+    text-align: center;
+    font: var(--headline5);
+}
+
+.mensaje img
+{
+    position: static;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .mensaje
+    {
+        padding: 200px 150px;
+    }
+
+    .mensaje .personal
+    {
+        font: var(--mensajeGrande);
+    }
+    
+}

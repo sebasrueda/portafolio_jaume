@@ -1,0 +1,19 @@
+.titulo
+{
+    text-decoration: none;
+    background: var(--purpura);
+    font: var(--headline5);
+    color: var(--blanco);
+    align-self: flex-start;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    box-shadow: -4px 4px 0 var(--blanco);
+}
+
+.titulo.marvol,
+.titulo.netnet
+{
+    text-transform: uppercase;
+}

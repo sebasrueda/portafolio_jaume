@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Importando fuente Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Importando fuente Oxygen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jaume</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="contenedor">
+            <div class="contenido-cabecera">
+                <img src="./imagenes/LOGO.png" width="70" height="20" alt="Logo del proyecto">
+                <nav aria-label="navegacion-principal" class="menu">
+                    <ul>
+                        <li>
+                            <a href="#inicio">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#proyectos">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="boton">Curriculum</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <!-- Foto y texto de presentación -->
+        <section class="heroe" id="inicio">
+            <div class="foto-heroe">
+                <img src="imagenes/foto.png" width="338" height="330" alt="Foto de Jaume">
+            </div>
+            <div class="descripcion-heroe">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Jaume</span>
+                </h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="contacto">
+                    <!-- Íconos de contacto -->
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-phone.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-important_mail.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-instagram.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-twitter_squared.svg" alt="Teléfono">
+                    </a>
+                </div>
+                <a href="" class="boton">Descargar currículum</a>
+            </div>
+        </section>
+
+        <section class="mensaje">
+            <p class="personal">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+            <p class="algunos-proyectos">Aquí hay algunos que me gustaría compartir.</p>
+            <img src="imagenes/flecha-abajo.png" alt="Flecha apuntando a los proyectos" width="80" height="80">
+        </section>
+
+        <section id="proyectos">
+            <!-- Proyecto de LeonidasEsteban.com -->
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="imagenes/leonidas-esteban.png" alt="leonidasesteban.com">
+                </div>
+                <div class="descripcion-proyecto">
+                    <a class="titulo" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                    <div class="botones-proyecto">
+                        <a target="_blank" href="https://github.com" class="boton secundario">Ver Código</a>
+                        <a target="_blank" href="https://leonidasesteban.com" class="boton">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+    
+            <article class="testimonios">
+                <div class="cuadro">
+                    <div class="contenido-testimonio">
+                        <div class="foto-persona">
+                            <img class="foto" src="imagenes/leonidas.png" alt="Leonidas Esteban">
+                        </div>
+                        <p class="testimonio">"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".</p>
+                        <p class="nombre">Leonidas Esteban / Cofundador y CEO leonidasesteban.com</p>
+                    </div>
+                </div>
+            </article>
+    
+            <!-- ----------------------------------------------------------------------------------- -->
+    
+            <!-- Proyecto de Marvol -->
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="imagenes/marvol.png" alt="Marvol">
+                </div>
+                <div class="descripcion-proyecto">
+                    <a class="titulo marvol" target="_blank" href="https://leonidasesteban.com">Marvol</a>
+                    <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                    <div class="botones-proyecto">
+                        <a target="_blank" href="https://github.com" class="boton secundario">Ver Código</a>
+                        <a target="_blank" href="https://leonidasesteban.com" class="boton">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+    
+            <article class="testimonios">
+                <div class="cuadro">
+                    <div class="contenido-testimonio">
+                        <div class="foto-persona">
+                            <img class="foto" src="imagenes/jason.png" alt="Jason Lopez">
+                        </div>
+                        <p class="testimonio">"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+                        <p class="nombre">Jason Lopez / Cofundador y CEO Marvol</p>
+                    </div>
+                </div>
+            </article>
+    
+            <!-- ----------------------------------------------------------------------------------- -->
+    
+            <!-- Proyecto de Netnet -->
+            <div class="proyecto">
+                <div class="imagen-proyecto">
+                    <img src="imagenes/netnet.png" alt="Netnet">
+                </div>
+                <div class="descripcion-proyecto">
+                    <a class="titulo netnet" target="_blank" href="https://leonidasesteban.com">Netnet</a>
+                    <p>Películas y series ilimitadas y mucho más. <br>Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <div class="botones-proyecto">
+                        <a target="_blank" href="https://github.com" class="boton secundario">Ver Código</a>
+                        <a target="_blank" href="https://leonidasesteban.com" class="boton">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+    
+            <article class="testimonios">
+                <div class="cuadro">
+                    <div class="contenido-testimonio">
+                        <div class="foto-persona">
+                            <img class="foto" src="imagenes/marco.png" alt="Marco Cortez">
+                        </div>
+                        <p class="testimonio">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+                        <p class="nombre">Marco Cortez / NetNet</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <form action="" method="POST" class="formulario">
+            <div class="contenido-formulario">
+                <h2 class="titulo">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.</p>
+                <label for="formulario-nombre">
+                    Nombre completo
+                    <input required name="nombre" id="formulario-nombre" type="text" placeholder="Nombre">
+                </label>
+    
+                <label for="formulario-correo">
+                    Correo electrónico
+                    <input required name="correo" id="formulario-correo" type="email" placeholder="Email">
+                </label>
+    
+                <label for="formulario-mensaje">
+                    Mensaje
+                    <textarea required name="mensaje" id="formulario-mensaje" placeholder="Mensaje" cols="30" rows="7"></textarea>
+                </label>
+                <button class="boton" type="submit">Enviar mensaje</button>
+            </div>
+        </form>
+
+        <footer aria-label="principal" class="pie" id="contacto">
+            <div class="contenido-pie">
+                <div class="logo-pie">
+                    <img src="./imagenes/LOGO.png" width="70" height="20" alt="Logo del proyecto">
+                </div>
+                <div class="contacto">
+                    <!-- Íconos de contacto -->
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-phone.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-important_mail.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-instagram.svg" alt="Teléfono">
+                    </a>
+                    <a class="icono-boton" href="tel:36543843645">
+                        <img src="./iconos/icon-twitter_squared.svg" alt="Teléfono">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>Hecho con el ❤ por Sebastián Rueda.</p>
+                    <p>Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+</body>
+</html>

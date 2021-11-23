@@ -1,0 +1,63 @@
+    /* block es horizontal */
+    /* inline es vertical */
+
+    /* block-start equivale a top */
+    /* block-end equivale a bottom */
+    /* inline-start equivale a right */
+    /* inline-end equivale a botttom */
+
+.formulario
+{
+    margin-block-end: 80px;
+}
+
+.contenido-formulario
+{
+    max-inline-size: 540px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.formulario label
+{
+    font: var(--boton);
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input,
+.formulario textarea
+{
+    margin-block-start: 8px;
+    font: var(--cuerpo1);
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    padding-block-start: 12px;
+    padding-block-end: 12px;
+    border: 2px solid #858c94;
+    border-radius: 8px;
+}
+
+.formulario .titulo
+{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.formulario p
+{
+    margin: 0;
+    text-align: center;
+    color: var(--blanco);
+}
+
+@media screen and (min-width: 768px) 
+{
+    .formulario .titulo
+    {
+        align-self: stretch;
+        text-align: center;
+    }
+}

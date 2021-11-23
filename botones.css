@@ -1,0 +1,24 @@
+/* Estilos de los botones */
+
+.boton
+{
+    text-align: center;
+    font: var(--boton);
+    color: var(--blanco);
+    background: var(--purpura);
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+}
+
+.boton.secundario
+{
+    background: unset;
+    color: var(--purpura);
+    border: 2px solid var(--purpura);
+}

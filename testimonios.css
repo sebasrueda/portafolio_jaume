@@ -1,0 +1,133 @@
+/* block es horizontal */
+/* inline es vertical */
+
+.testimonios
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: 20px;
+    padding-block-end: 40px;
+}
+
+.testimonios .cuadro
+{
+    max-width: 1116px;
+    border: 5px solid #C9ECF9;
+    padding: 24px;
+    position: static;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(39.7657px);
+    border-radius: 24px;
+    
+}
+
+.contenido-testimonio
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.testimonios .testimonio
+{
+    margin: 0;
+    font: var(--testimonio);
+}
+
+.testimonios .nombre
+{
+    margin: 0;
+    text-transform: uppercase;
+    font: var(--nombre);
+    opacity: 0.5;
+}
+
+.testimonios .foto-persona
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios .foto-persona .foto
+{
+    width: 64px;
+    height: 64px;
+}
+
+@media screen and (min-width: 651px) 
+{
+    .testimonios .cuadro
+    {
+        align-self: stretch;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .testimonios .testimonio
+    {
+        text-align: center;
+    }
+
+    .testimonios .nombre
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .testimonios .cuadro
+    {
+        padding: 80px;
+        padding-block-start: 20px;
+        padding-block-end: 40px;
+        padding-inline-start: 16px;
+        padding-inline-end: 16px;
+    }
+
+    .testimonios .testimonio
+    {
+        font: var(--testimonioGrande);
+        text-align: center;
+    }
+
+    .testimonios .nombre
+    {
+        font: var(--nombreGrande);
+        text-align: center;
+    }
+
+    .testimonios .foto-persona .foto
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contenido-testimonio
+    {
+        padding: 60px 64px 40px 64px;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1147px) 
+{
+    .contenido-testimonio
+    {
+        padding: 60px 64px 40px 64px;
+        width: 939px;
+        margin: auto;
+    }
+}
+
+/* @media screen and (min-width: 1440px)
+{
+    .testimonios .cuadro
+    {
+        width: 1116px;
+    }
+} */
